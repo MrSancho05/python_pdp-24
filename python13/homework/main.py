@@ -74,25 +74,25 @@
 # print(min)
 
 # task 8
-# x = [-2, 31, 104, 51, 19, 7] 
-# max = x[0]
-# min = x[0]
-# maxI = 0
-# minI = 0
+x = [-2, 31, 104, 51, 19, 7] 
+max = x[0]
+min = x[0]
+maxI = 0
+minI = 0
 
-# i = 0
-# while i < len(x):
-#     if max < x[i]: 
-#         max = x[i] 
-#         maxI = i
-#     if min > x[i]: 
-#         min = x[i] 
-#         minI = i
-#     i += 1
-# help = max
-# x[maxI] = min
-# x[minI] = help
-# print(x)
+i = 0
+while i < len(x):
+    if max < x[i]: 
+        max = x[i] 
+        maxI = i
+    if min > x[i]: 
+        min = x[i] 
+        minI = i
+    i += 1
+help = max
+x[maxI] = min
+x[minI] = help
+print(x)
 
 # task 9
 # x = [-2, 31, 104, 51, 19, 7]
@@ -107,34 +107,26 @@
 # else : print('Element yoq')
 
 # task 10
+# EKUB
 # a = int(input('a: '))
 # b = int(input('b: '))
 
-# i = 1
-# l1 = []
-# while i <= a:
-#     if a % i == 0:
-#         print(i)
-#         l1.append(i)
-#     i += 1
-# print(l1)
-# i2 = 1
-# l2 = []
-# while i2 <= b:
-#     if b % i2 == 0:
-#         print(i2)
-#         l2.append(i2)
-#     i2 += 1
-# print(l2)
+# while a != b:
+#     if a > b:
+#         a -= b
+#     else:
+#         b -= a
+# print(f'EKUB: {a}')
 
-# i3 = 0
-# while len(l1) > i3:
-#     print(l1[i3])
-#     i3 -= 1
-
-# task 11
-
-
+# 11 TASK
+# EKUK
+# max_num = max(a,b)
+# while True:
+#     if max_num % a == 0 and max_num % b == 0:
+#         ekuk = max_num
+#         break
+#     max_num += max(a,b)
+# print(f'{a} va {b} EKUK: {ekuk}')
 
 # task 12
 # a = int(input('a: '))
@@ -149,5 +141,24 @@
 # print(a)
 
 # task 13
+# a = int(input('Enter a: '))
+# b = int(input('Enter b: '))
+# nums = []
+
+# while a >= b:
+#     a -= b
+#     nums.append(a)
+#     # print(a)
+# print(nums[len(nums) - 1])
+
+# task 14
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
+sanoq = 0
+while a >= b:
+    a -= b
+    sanoq += 1  
+print(sanoq)
+
 
 
