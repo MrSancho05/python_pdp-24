@@ -83,10 +83,6 @@
 # print(jSum)
 # print(tSum)
 
-# TASK 3
-for i in range(-80, 81):
-    print(i)
-
 
 
 
